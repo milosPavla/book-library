@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    box-sizing: content-box;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;  
+}
+
+body {
+    background-color: #E7DFC6;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+form {
+    background-color: #E9F1F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+    gap: 10px;
+}
+
+form input {
+    margin-bottom: 30px;
+    border: 0;
+    padding: 3px;
+    font-style: italic;
+}
+
+form #addButton {
+    background-color: #2274A5;
+    border: 0;
+    border-radius: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 5px;
+    text-transform: uppercase;
+    margin: 50px;
+    cursor: pointer;
+}
+
+.libraryContainer {
+    background-color: #E9F1F7;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    padding: 50px;
+}
+
+.libraryContainer .library {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px;
+    overflow: scroll;
+    margin-top: 12px;
+}
+
+.libraryContainer .library .book-item {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.libraryContainer #clearButton {
+    background-color: #a52222;
+    border: 0;
+    border-radius: 5px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 5px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    background-color: #131B23;
+    color: #E7DFC6;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer img {
+    height: 40px;
+    border-radius: 20px;
+}
